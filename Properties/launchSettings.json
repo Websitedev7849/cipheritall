@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CipherItAll": {
+      "commandName": "Project",
+      "commandLineArgs": "decrypt \"Testing.cia.txt\""
+    }
+  }
+}
