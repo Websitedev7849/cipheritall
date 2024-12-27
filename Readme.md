@@ -1,6 +1,6 @@
-﻿# CipherItAll
+﻿# cipheritall
 
-**CipherItAll** is a command-line-based C# application designed to encrypt and decrypt files of any type or extension. The tool ensures secure file handling through unique encryption keys and an authentication mechanism for added protection.
+**cipheritall** is a command-line-based C# application designed to encrypt and decrypt files of any type or extension. The tool ensures secure file handling through unique encryption keys and an authentication mechanism for added protection.
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 1. File Encryption & Decryption
 
-- **Encrypt any file**: CipherItAll supports encryption of files regardless of their type or extension.
+- **Encrypt any file**: cipheritall supports encryption of files regardless of their type or extension.
 - **Decrypt encrypted files**: Reverse the encryption process using the corresponding key.
 
 ### 2. Encryption Key Management
@@ -31,7 +31,7 @@
 Run the application using the following structure:
 
 ```
-CipherItAll <operation> <file-path>
+cipheritall <operation> <file-path>
 ```
 
 **Parameters**:
@@ -44,7 +44,7 @@ CipherItAll <operation> <file-path>
 1. **Encrypt a file**:
 
    ```
-   CipherItAll encrypt path/to/your/file.txt
+   cipheritall encrypt path/to/your/file.txt
    ```
 
    - Outputs the encrypted file and the encryption key.
@@ -52,7 +52,7 @@ CipherItAll <operation> <file-path>
 2. **Decrypt a file**:
 
    ```
-   CipherItAll decrypt path/to/your/encryptedfile.cia.txt
+   cipheritall decrypt path/to/your/encryptedfile.cia.txt
    ```
 
    - Outputs the decrypted file.
@@ -113,7 +113,7 @@ CipherItAll <operation> <file-path>
    ```
 2. Navigate to the project directory:
    ```bash
-   cd CipherItAll
+   cd cipheritall
    ```
 3. Build the project:
    ```bash
